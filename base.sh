@@ -24,7 +24,7 @@ sudo tee /etc/apache2/sites-available/000-default-auth.conf > /dev/null << 'EOF'
         AuthName "Authentification requise"
         AuthUserFile /etc/apache2/auth/.htpasswd
         Require valid-user
-        
+
         Options Indexes FollowSymLinks
         AllowOverride None
     </Directory>

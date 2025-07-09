@@ -28,3 +28,5 @@ sudo cat $APACHE_TEMPLATE | sed "s#www.example.com#\n\tServerName glpi.local#" |
 
 sudo a2ensite 001-glpi.conf
 sudo systemctl reload apache2
+
+./bdd.sh glpi

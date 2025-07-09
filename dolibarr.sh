@@ -21,3 +21,5 @@ sudo cat $APACHE_TEMPLATE | sed "s#www.example.com#\n\tServerName dolibarr.local
 
 sudo a2ensite 001-dolibarr.conf
 sudo systemctl reload apache2
+
+./bdd.sh dolibarr
